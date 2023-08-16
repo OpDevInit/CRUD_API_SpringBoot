@@ -26,11 +26,7 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-\mvnw
-\mvnw.cmd
-\maven-wrapper.jar
-\maven-wrapper.properties
-\application.properties
+
 
 ### VS Code ###
 .vscode/
