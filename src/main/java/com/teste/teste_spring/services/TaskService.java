@@ -18,7 +18,7 @@ public class TaskService {
     private TaskRepository taskRepository;
 
     @Autowired
-    private UserServices userServices;
+    private UserService userServices;
 
     public Task findById(Long id){
         Optional<Task> task = this.taskRepository.findById(id);

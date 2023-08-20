@@ -7,17 +7,15 @@ import org.springframework.stereotype.Service;
 
 import com.teste.teste_spring.models.User;
 import com.teste.teste_spring.repositories.UserRepository;
-
+import java.lang.Long;
 import jakarta.transaction.Transactional;
 
 @Service
-public class UserServices {
+public class UserService {
 
     // "Referéncia de um Construtor"
     @Autowired
     private UserRepository userRepository;
-
-    @Autowired
 
     public User findById(Long id) {
 
